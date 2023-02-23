@@ -3,6 +3,7 @@
     <ul class="grid grid-cols-1 gap-1 sm:grid-cols-2 md:grid-cols-3 md:gap-8">
         @foreach($posts as $post)
       <li class="bg-white dark:bg-gray-800 rounded-lg shadow-xl">
+      <a href="{{ route('posts.show',$post->slug) }}" class="group max-w-sm mx-auto overflow-hidden bg-white rounded-lg hover:shadow-lg dark:bg-gray-800 hover:bg-gray-200 transition duration-500 ease-in-out">
             <img
             class="object-cover object-center w-full h-44 opacity-90 rounded-lg group-hover:opacity-100 transition duration-500 ease-in-out"
              src="{{ asset('storage/photos/'. $post->image) }}" alt="avatar">

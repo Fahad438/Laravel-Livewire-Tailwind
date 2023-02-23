@@ -24,7 +24,7 @@
           <tr>
             <td class="px-6 py-4 whitespace-nowrap">{{ $post->id }}</td>
             <td class="px-6 py-4 whitespace-nowrap">{{ $post->title }}</td>
-            <td class="px-6 py-4 whitespace-nowrap">
+        <td class="px-6 py-4 whitespace-nowrap">
               @if($post->active )
               active
               @else
