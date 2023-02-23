@@ -5,7 +5,7 @@
 
   </div>
   <!--image-->
-  <img class="container w-full max-w-lg mx-auto bg-white bg-cover mt-8 rounded" src="{{ asset('storage/photos/'. $post->image) }}" />
+  <img class="container w-full max-w-xl mx-auto bg-white bg-cover mt-8 rounded" src="{{ asset('storage/photos/'. $post->image) }}" />
   <!--Container-->
   <div class="container max-w-5xl mx-auto mt-8">
     <div class="mx-0 sm:mx-6">

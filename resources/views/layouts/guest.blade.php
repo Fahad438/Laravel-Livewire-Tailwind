@@ -27,7 +27,7 @@
         </div>
 
 
-
+        @livewire('footer')
             @livewireScripts
         <script src="resources/js/app.js"></script>
     </body>
